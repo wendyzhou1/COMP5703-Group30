@@ -6,6 +6,7 @@ AttentionMOI: A four-class classifier for the GBM subtype
 - Recommended: virtual environment (Pytorch conda)
 
 ## Directory Structure
+```
 .
 ├── best_model/              # Best-performing model and logs
 ├── data/                    # Raw input data
@@ -17,7 +18,9 @@ AttentionMOI: A four-class classifier for the GBM subtype
 ├── train_sam.py             # Train model using preprocessed data
 ├── test.py                  # Load best model and generate results
 └── README.md
+```
 
+---
 ## Usage Workflow (Recommended Order)
 Place raw files into data/
 Run data preprocessing to generate preprocessed/
@@ -68,3 +71,4 @@ Run Testing
 test.py automatically uses the model stored in best_model/.
 
 Visualization outputs (figures, curves, etc.) will appear in the results/ folder.
+
