@@ -1,0 +1,69 @@
+2025-11-04 02:57:46,114 [INFO] Starting model testing...
+2025-11-04 02:57:46,114 [INFO] Loading test data...
+2025-11-04 02:57:46,183 [INFO] Test data shapes - DNA: (30, 65319), RNA: (30, 20530), Labels: (30,)
+2025-11-04 02:57:46,184 [INFO] Test set label distribution: [ 8 10  5  7]
+2025-11-04 02:57:46,605 [INFO] Model loaded successfully: ./best_model/best_model.pth
+2025-11-04 02:57:46,606 [INFO] Starting model evaluation...
+2025-11-04 02:57:46,901 [INFO] Generating visualizations...
+2025-11-04 02:57:48,989 [INFO] Saving detailed results...
+2025-11-04 02:57:48,998 [INFO] Detailed results saved to: ./results/detailed_results.csv
+2025-11-04 02:57:48,999 [INFO] Comprehensive summary saved to: ./results/comprehensive_summary.json
+2025-11-04 02:57:48,999 [INFO] 
+================================================================================
+2025-11-04 02:57:48,999 [INFO] DETAILED PER-CLASS ANALYSIS
+2025-11-04 02:57:48,999 [INFO] ================================================================================
+2025-11-04 02:57:48,999 [INFO] 
+Classical:
+2025-11-04 02:57:48,999 [INFO]   Sample count: 8
+2025-11-04 02:57:48,999 [INFO]   Correct predictions: 8
+2025-11-04 02:57:48,999 [INFO]   Accuracy: 1.0000
+2025-11-04 02:57:48,999 [INFO]   F1-Score: 0.9412
+2025-11-04 02:57:48,999 [INFO]   Precision: 0.8889
+2025-11-04 02:57:49,000 [INFO]   Recall: 1.0000
+2025-11-04 02:57:49,000 [INFO] 
+Mesenchymal:
+2025-11-04 02:57:49,000 [INFO]   Sample count: 10
+2025-11-04 02:57:49,000 [INFO]   Correct predictions: 9
+2025-11-04 02:57:49,000 [INFO]   Accuracy: 0.9000
+2025-11-04 02:57:49,000 [INFO]   F1-Score: 0.9000
+2025-11-04 02:57:49,000 [INFO]   Precision: 0.9000
+2025-11-04 02:57:49,000 [INFO]   Recall: 0.9000
+2025-11-04 02:57:49,000 [INFO]   Misclassification distribution:
+2025-11-04 02:57:49,000 [INFO]     → Neural: 1 samples
+2025-11-04 02:57:49,000 [INFO] 
+Neural:
+2025-11-04 02:57:49,000 [INFO]   Sample count: 5
+2025-11-04 02:57:49,000 [INFO]   Correct predictions: 4
+2025-11-04 02:57:49,000 [INFO]   Accuracy: 0.8000
+2025-11-04 02:57:49,000 [INFO]   F1-Score: 0.7273
+2025-11-04 02:57:49,000 [INFO]   Precision: 0.6667
+2025-11-04 02:57:49,000 [INFO]   Recall: 0.8000
+2025-11-04 02:57:49,000 [INFO]   Misclassification distribution:
+2025-11-04 02:57:49,000 [INFO]     → Classical: 1 samples
+2025-11-04 02:57:49,000 [INFO] 
+Proneural:
+2025-11-04 02:57:49,000 [INFO]   Sample count: 7
+2025-11-04 02:57:49,000 [INFO]   Correct predictions: 5
+2025-11-04 02:57:49,000 [INFO]   Accuracy: 0.7143
+2025-11-04 02:57:49,000 [INFO]   F1-Score: 0.8333
+2025-11-04 02:57:49,000 [INFO]   Precision: 1.0000
+2025-11-04 02:57:49,000 [INFO]   Recall: 0.7143
+2025-11-04 02:57:49,000 [INFO]   Misclassification distribution:
+2025-11-04 02:57:49,000 [INFO]     → Mesenchymal: 1 samples
+2025-11-04 02:57:49,000 [INFO]     → Neural: 1 samples
+2025-11-04 02:57:49,000 [INFO] 
+================================================================================
+2025-11-04 02:57:49,000 [INFO] TEST COMPLETION SUMMARY
+2025-11-04 02:57:49,000 [INFO] ================================================================================
+2025-11-04 02:57:49,000 [INFO] Test Loss: 0.7038
+2025-11-04 02:57:49,000 [INFO] Overall Accuracy: 0.8667
+2025-11-04 02:57:49,000 [INFO] Macro F1-Score: 0.8504
+2025-11-04 02:57:49,001 [INFO] Weighted F1-Score: 0.8666
+2025-11-04 02:57:49,001 [INFO] Macro Precision: 0.8639
+2025-11-04 02:57:49,001 [INFO] Macro Recall: 0.8536
+2025-11-04 02:57:49,001 [INFO] Classical F1-Score: 0.9412
+2025-11-04 02:57:49,001 [INFO] Mesenchymal F1-Score: 0.9000
+2025-11-04 02:57:49,001 [INFO] Neural F1-Score: 0.7273
+2025-11-04 02:57:49,001 [INFO] Proneural F1-Score: 0.8333
+2025-11-04 02:57:49,001 [INFO] All results saved to ./results/ directory
+2025-11-04 02:57:49,001 [INFO] Detailed log: ./results/test_20251104_025746.log
